@@ -1,0 +1,43 @@
+---
+model: \MyProject\Model\User
+title: Пользователи
+paging: true
+pageSize: 10
+sorting: true
+defaultSorting: name ASC
+fields:
+  id:
+    key: true
+    create: false
+    edit: false
+    list: false
+  name:
+    title: Имя
+    width: 23%
+  email:
+    title: E-Mail
+  credits:
+    title: Баланс
+    width: 13%
+  reg_date:
+    title: Дата регистрации
+    width: 15%
+    type: date
+    displayFormat: yy-mm-dd
+  active:
+    title: Активен
+    width: 4%
+    type: checkbox
+    values:
+    - Нет
+    - Да
+    defaultValue: 1
+  admin:
+    title: Админ
+    width: 4%
+    type: checkbox
+    values:
+    - Нет
+    - Да
+    defaultValue: 0
+...

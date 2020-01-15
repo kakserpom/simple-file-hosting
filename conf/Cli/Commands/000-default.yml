@@ -1,0 +1,18 @@
+---
+queue:
+  controller: \Zer0\Cli\Controllers\Queue
+http:
+  controller: \Zer0\Cli\Controllers\HTTP
+i18n:
+  controller: \Zer0\Cli\Controllers\I18n
+cache:
+  controller: \Zer0\Cli\Controllers\Cache
+filestorage:
+  controller: \Zer0\Cli\Controllers\FileStorage
+devtools:
+  controller: \Zer0\Cli\Controllers\Devtools
+config:
+  controller: \Zer0\Cli\Controllers\Config
+_:
+  controller: \Zer0\Cli\Controllers\Index
+...

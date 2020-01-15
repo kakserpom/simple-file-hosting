@@ -1,0 +1,6 @@
+---
+name: session
+expire: +1 year
+storage: Redis
+storageAsync: RedisAsync
+...

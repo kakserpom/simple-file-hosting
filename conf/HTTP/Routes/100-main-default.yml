@@ -1,0 +1,29 @@
+---
+files:
+  path: /files/{action}
+  defaults:
+    controller: Files
+  methods:
+    - GET
+    - POST
+  export:
+    - JS
+download:
+  path: /download/{id}/{md5}
+  defaults:
+    controller: Files
+    action: download
+  methods:
+    - GET
+  export:
+    - JS
+delete:
+  path: /delete/{id}/{key}
+  defaults:
+    controller: Files
+    action: delete
+  methods:
+    - GET
+  export:
+    - JS
+...

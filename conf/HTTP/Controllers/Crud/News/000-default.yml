@@ -1,0 +1,47 @@
+---
+model: \MyProject\Model\News
+routeName: news_view
+title: Новости
+paging: true
+pageSize: 10
+sorting: true
+defaultSorting: date DESC
+fields:
+  id:
+    key: true
+    create: false
+    edit: false
+    list: false
+  title:
+    title: Заголовок
+    listClass: crud-column-link
+    width: 43%
+  date:
+    title: Дата
+    type: date
+    displayFormat: yy-mm-dd
+    width: 5%
+  text:
+    title: Текст
+    type: textarea
+    list: false
+  photo:
+    title: Фото
+    list: false
+  deleted:
+    title: Удалено
+    width: 7%
+    type: checkbox
+    values:
+    - Нет
+    - Да
+    defaultValue: 0
+  to_all:
+    title: Для всех
+    width: 8%
+    type: checkbox
+    values:
+    - Нет
+    - Да
+    defaultValue: 0
+...

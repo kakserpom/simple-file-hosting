@@ -1,0 +1,5 @@
+---
+template_dir: !path src/MyProject/HTTP/Views/
+compile_dir: !path compiled/templates_c/
+compiler_prefs.auto_escape: true
+...

@@ -1,0 +1,134 @@
+{
+    "require": {
+        "zer0-framework/core": "dev-master",
+        "zer0-framework/config": "dev-master",
+        "zer0-framework/file-storage": "dev-master",
+        "zer0-framework/fastcgi": "dev-master",
+        "zer0-framework/cli": "dev-master",
+        "zer0-framework/http": "dev-master",
+        "zer0-framework/i18n": "dev-master",
+        "zer0-framework/html-purifier": "dev-master",
+        "zer0-framework/pdo": "dev-master",
+        "zer0-framework/redis": "dev-master",
+        "zer0-framework/model": "dev-master",
+        "zer0-framework/pubsub": "dev-master",
+        "zer0-framework/queue": "dev-master",
+        "zer0-framework/quicky": "dev-master",
+        "zer0-framework/cache": "dev-master",
+        "zer0-framework/socket": "dev-master",
+        "zer0-framework/session": "dev-master",
+        "zer0-framework/security": "dev-master",
+        "zer0-framework/mailer": "dev-master",
+        "zer0-framework/helpers": "dev-master",
+        "zer0-framework/tracy": "dev-master",
+        "tracy/tracy": "dev-master",
+        "jandrabek/tracy-gitversion-panel": "dev-master",
+        "netpromotion/profiler": "dev-master",
+        "neitanod/forceutf8": "^2.0"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/zer0-framework/core"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/zer0-framework/file-storage"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/zer0-framework/fastcgi"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/zer0-framework/config"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/zer0-framework/cli"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/zer0-framework/http"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/zer0-framework/pdo"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/zer0-framework/redis"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/zer0-framework/model"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/zer0-framework/pubsub"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/zer0-framework/queue"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/zer0-framework/cache"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/zer0-framework/i18n"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/zer0-framework/socket"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/zer0-framework/session"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/zer0-framework/html-purifier"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/zer0-framework/security"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/zer0-framework/mailer"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/zer0-framework/quicky"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/zer0-framework/tracy"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/zer0-framework/helpers"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kakserpom/tracy"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kakserpom/profiler"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kakserpom/tracy-gitversion-panel"
+        }
+    ]
+}

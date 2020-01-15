@@ -1,0 +1,4 @@
+---
+migrations:
+  default_migration_table: phinxlog
+...

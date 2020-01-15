@@ -1,0 +1,8 @@
+---
+routes:
+  socket: \MyProject\Socket\Socket
+services:
+- PubSub
+- Support
+socketClass: \MyProject\Socket\Socket
+...

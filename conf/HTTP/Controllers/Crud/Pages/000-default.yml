@@ -1,0 +1,36 @@
+---
+model: \MyProject\Model\Page
+routeName: page
+routeParameter: path
+title: Страницы
+paging: true
+pageSize: 10
+sorting: true
+defaultSorting: date DESC
+fields:
+  id:
+    key: true
+    create: false
+    edit: false
+    list: false
+  path:
+    listClass: crud-column-link
+    title: Путь
+    width: 23%
+  title:
+    listClass: crud-column-link
+    title: Заголовок
+    width: 23%
+  description:
+    title: Описание
+    list: false
+    width: 23%
+  keywords:
+    title: Ключевые слова
+    list: false
+    width: 23%
+  content:
+    title: Текст
+    type: textarea
+    list: false
+...

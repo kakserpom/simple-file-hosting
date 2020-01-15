@@ -1,0 +1,66 @@
+---
+model: \MyProject\Model\Support\Ticket
+routeName: support-ticket
+title: Тикеты
+paging: true
+pageSize: 10
+sorting: true
+defaultSorting: date DESC
+fields:
+  id:
+    key: true
+    create: false
+    edit: false
+    list: false
+  type:
+    title: Тип
+    width: 3%
+    options:
+      0: Вопрос
+      1: Оплата
+      2: Ошибки в работе
+      3: Предложение
+      4: Другое
+      x: ~
+  severity:
+    title: Срочность
+    width: 3%
+    options:
+      0: Не срочно
+      1: В рабочем порядке
+      2: Срочно
+      3: Критическая срочность
+      x: ~
+  title:
+    title: Заголовок
+    listClass: crud-column-link
+    width: 50%
+  created:
+    edit: false
+    title: Дата
+    type: date
+    displayFormat: yy-mm-dd
+    width: 2%
+  last_msg_ts:
+    edit: false
+    title: Сообщение
+    type: date
+    displayFormat: yy-mm-dd
+    width: 5%
+  deleted:
+    title: "\U0001F5D1️"
+    width: 2%
+    type: checkbox
+    values:
+    - Нет
+    - Да
+    defaultValue: 0
+  complete:
+    title: ✔️
+    width: 2%
+    type: checkbox
+    values:
+    - Нет
+    - Да
+    defaultValue: 0
+...

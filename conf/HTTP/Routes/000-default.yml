@@ -1,0 +1,16 @@
+---
+root:
+  path: /
+  defaults:
+    controller: Index
+  methods:
+  - GET
+  export:
+  - JS
+error:
+  path: /error/{errcode}
+  defaults:
+    controller: Error
+  methods:
+  - GET
+...

@@ -1,0 +1,8 @@
+---
+default_controller_ns: MyProject\HTTP\Controllers
+server_name: !env DOMAIN || "simple-file-hosting"
+pretty_json: true
+route_errors:
+  any:
+    controller: Error
+...
